@@ -31,4 +31,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         // handle tap events
         print("You selected cell #\(indexPath.item)!")
     }
+    
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        
+    }
+    
+    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+        
+    }
 }
